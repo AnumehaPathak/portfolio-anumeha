@@ -1,0 +1,56 @@
+﻿<head>
+    <script src="LetsScript.js"></script>
+</head>
+<body ng-app="lModule">
+    <div id="DIV2" class="div2" ng-controller="lController" data-stellar-background-ratio="0.5">
+        <div id="req">
+            <h1>Leave a message for me OR Just type in your email id, I'll get in touch with you!</h1>
+        </div>
+
+        <div class="container" id="contact">
+            <form action="">
+                <div class="row form-group">
+                    <div class="col-sm-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="name" name="name" placeholder="Your name.." ng-model="letter.name">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-3">
+                        <label for="email">Email id</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="email" name="email" placeholder="Your email id.." ng-model="letter.email">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-sm-3">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <textarea id="message" name="message" rows="5" placeholder="Leave your message.." ng-model="letter.message"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <input type="button" id="btn" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div id="bottomnav">
+            <img class="ico" alt="gmail" src="Images/gmail.png"><br>
+            <a href="https://www.linkedin.com/in/anumehapathak27195/"><img class="ico" alt="linkedin" src="Images/lin.png"></a><br>
+            <a href="https://github.com/AnumehaPathak"><img class="ico" alt="git" src="Images/git.png"></a><br>
+            <img class="ico" alt="message" src="Images/message.png"><br>
+            <img class="ico" alt="whatsapp" src="Images/whatsapp.png"><br>
+            <img class="ico" alt="skype" src="Images/skype.png"><br>
+            <img class="ico" alt="facebook" src="Images/fb.png"><br />
+        </div>
+        <div id="letter">
+            Hey,<br>{{letter.message}}<br><br>-{{letter.name}}.
+        </div>
+
+    </div>
+</body>

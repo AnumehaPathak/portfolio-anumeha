@@ -1,0 +1,53 @@
+﻿#DIV1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 670px;
+    width: 100%;
+    background-image: url('Images/skillsbk1.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#skill {
+    margin-top: 200px;
+    padding-top: 20px;
+    float: right;
+    width: 700px;
+    color:black;
+    font:bold 16px verdana;
+    font-family:Castellar;
+}
+
+.arrow {
+    position: relative;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 10px;
+}
+
+.arrow-text {
+    text-align: right;
+    padding-right: .5em;
+    color: black;
+    font-size: 16px;
+    -webkit-animation: width 2s ease-in;
+}
+
+.arrow-status {
+    text-align: right;
+    padding-right: .5em;
+    background-color: black;
+    border-radius: 20px;
+    width: 0%;
+    height: 100%;
+    font-size: 16px;
+    -webkit-animation: width 2s ease-in;
+}
+
+@-webkit-keyframes width {
+    from {
+        width: 0%;
+    }
+}

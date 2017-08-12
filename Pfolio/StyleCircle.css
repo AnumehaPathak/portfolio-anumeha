@@ -1,0 +1,11 @@
+﻿#DIV0 {
+    height: 100px;
+    width: 200px;
+    background-color: #06001a;
+    text-align: center;
+    color: white;
+    border: 8px solid black;
+    border-radius: 0 0 100% 100%;
+    font-family: fantasy;
+    font-size: 2em;
+}

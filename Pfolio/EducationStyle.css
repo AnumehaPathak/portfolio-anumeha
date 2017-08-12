@@ -1,0 +1,53 @@
+﻿#DIV3 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 670px;
+    width: 100%;
+    background-image: url('Images/educationbk.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-transparent {
+    position: relative;
+    background: white;
+    opacity: 0.5;
+    float: left;
+    box-shadow: 16px 16px 16px 16px black;
+    transition: 0.3s;
+    width: 33.33%;
+    height: 670px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+.card {
+    position: relative;
+    float: left;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    width: 33.33%;
+    height: 670px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+.head {
+    margin-top: 12%;
+    text-align: center;
+    font-family: 'Bodoni MT';
+    font-size: 2.5em;
+}
+
+.sub {
+    margin-top: 75%;
+    padding-bottom: 8px;
+    text-align: center;
+    font-family: 'Nirmala UI';
+    font-size: 2em;
+}
+
+p {
+    font-family: cursive;
+    text-align: justify;
+    padding: 16px 16px 16px 16px;
+}

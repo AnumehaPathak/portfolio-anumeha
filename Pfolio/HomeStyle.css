@@ -1,0 +1,21 @@
+﻿#DIV4 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 670px;
+    width: 100%;
+    background-image: url('ripped-2034945_1280 (1).png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color:#999;
+}
+
+#d1 {
+    color: black;
+    font-size: 50px;
+    padding-top: 20%;
+    padding-left: 30%;
+    font-family: 'Malgun Gothic';
+}
+
